@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dollars to Cents</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <h1>Dollars to Cents</h1>
+
+  <section class="input-container">
+    <form>
+      <label for="dollars">
+        Input a dollar amount to calculate how many coins it would be <small>(e.g 2.75)</small>
+      </label>
+
+      <div class="form-group">
+        <input type="text" id="dollars" name="dollars" />
+        <button type="submit">Calculate</button>
+      </div>
+
+      <br />
+      <small id="error"></small>
+    </form>
+  </section>
+
+  <section class="output-container">
+    <output class="hide">Quarters: <span name="quarters">0</span></output>
+    <output class="hide">Dimes: <span name="dimes">0</span></output>
+    <output class="hide">Nickels: <span name="nickels">0</span></output>
+    <output class="hide">Pennies: <span name="pennies">0</span></output>
+  </section>
+</body>
+
+</html>
