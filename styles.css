@@ -17,6 +17,8 @@ body {
 h1 {
   font-size: 4rem;
   text-align: center;
+  margin-top: 0;
+  padding-top: 2rem;
 }
 
 form {
@@ -79,7 +81,7 @@ output {
 #error {
   color: red;
   font-size: 1.25rem;
-  text-align: right;
+  text-align: center;
 }
 
 .hide {
